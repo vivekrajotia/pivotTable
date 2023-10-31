@@ -1,0 +1,31 @@
+.multi-select-container {
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.options-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.option-button {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #eaeaea;
+    border: none;
+    cursor: pointer;
+}
+
+.option-button.selected {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.code-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

@@ -1,0 +1,84 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    /* text-align: center; */
+    border-radius: var(--border-radius);
+    /* overflow: hidden;   */
+    position: relative;
+    overflow-y: auto;
+    text-align: initial;
+    /* text-transform: uppercase; */
+    
+    /* border: 1px solid var(--bg2); */
+}
+
+.thead {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #d9dbde;
+    /* text-transform: uppercase; */
+    /* #6c757d; */
+    /* #3058A6; */
+    /* color: white; */
+    /* padding-right: 0.8rem; */
+
+  
+    
+}
+.theadNormal {
+    /* position: sticky; */
+    /* z-index: 100; */
+    position: sticky;
+        top: 0;
+        z-index: 1;
+        background-color: #d9dbde;
+        /* text-transform: uppercase; */
+    /* background-color: #3159A630; */
+}
+.trHead {
+    background: var(--bg);
+    /* padding-right: 0.8rem; */
+        /* white-space: nowrap; */
+            /* min-width: max-content; */
+}
+.trRow {
+    background: var(--bg);
+    /* padding: 0.8rem; */
+       
+}
+
+.th {
+    padding: var(--sm-spacing);
+    color: var(--text);
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 14px;
+    width: 200px;
+    text-transform: uppercase;
+    /* padding: 0.8rem; */
+    /* overflow: hidden; */
+        /* text-overflow: ellipsis; */
+        white-space: nowrap;
+        /* max-width: max-content; */
+             
+}
+/* th:hover {
+    max-width: none;
+    overflow: visible;
+    white-space: normal;
+} */
+
+.trBody {
+    background: var(--white);
+     
+    
+}
+
+.td {
+    padding: var(--sm-spacing);
+    /* border: 1px solid var(--bg2); */
+    font-size: 14px;
+    padding: 0.8rem;
+    
+}
